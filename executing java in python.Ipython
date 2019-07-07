@@ -1,0 +1,5 @@
+import IPython
+js_code = '''
+document.querySelector("#output-area").appendChild(document.createTextNode("hello world!"));
+'''
+display(IPython.display.Javascript(js_code))
