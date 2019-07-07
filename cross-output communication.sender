@@ -1,0 +1,3 @@
+%%javascript
+const senderChannel = new BroadcastChannel('channel');
+senderChannel.postMessage('Hello world!');
